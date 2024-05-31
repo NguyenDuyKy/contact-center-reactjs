@@ -1,0 +1,109 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.sdk-page {
+    align-items: center;
+    height: 100vh;
+    background: url(../assets/login_night_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.setup-area {
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.video-area {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+
+.connect-area {
+    align-items: center;
+}
+
+.connect-area textarea {
+    padding: 5px;
+    font-size: 15px;
+    width: 70%;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.connect-area button {
+    margin-left: 5px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.client-status {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+.input-hotline-callee {
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.action-area {
+    margin-top: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.action-btn {
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.incoming-call-area {
+    width: 100%;
+    background-color: tan;
+    color: black;
+    align-items: center;
+}
+
+.incoming-call-area p {
+    margin-left: 10px;
+}
+
+#remoteVideo {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#localVideo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
