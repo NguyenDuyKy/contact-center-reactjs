@@ -10,9 +10,9 @@ const StringeeSDK = () => {
     const [isAuthenticated, setAuthenticate] = useState(false);
     const [incomingCaller, setIncomingCaller] = useState("");
     const [isIncomingCall, setIncomingCall] = useState(false);
-    const [inputClientToken, setInputClientToken] = useState("eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTSy4wLmwxRG1qQnFQeUZ0M1h4Nnh5R3A2Q0NGdlZhbHJlbzctMTcxNzE3NTQ5OCIsImlzcyI6IlNLLjAubDFEbWpCcVB5RnQzWHg2eHlHcDZDQ0Z2VmFscmVvNyIsImV4cCI6MTcxOTc2NzQ5OCwidXNlcklkIjoiMTExIiwiaWNjX2FwaSI6dHJ1ZX0.H2xH2RhRUT2MmpICPhwdoKRkBsUsKkzw7xLEA6VKJu0");
-    const [inputHotline, setInputHotline] = useState("842871020497");
-    const [inputCallee, setInputCallee] = useState("84369699871");
+    const [inputClientToken, setInputClientToken] = useState("");
+    const [inputHotline, setInputHotline] = useState("");
+    const [inputCallee, setInputCallee] = useState("");
     const [stringeeCall, setStringeeCall] = useState(null);
     const [callStatus, setCallStatus] = useState("");
     const [userId, setUserId] = useState("");
